@@ -1,3 +1,9 @@
+// 왜 맞았는가?
+// 1. union과 intersection은 각각 ArrayList로 처리해준다.
+// -> 여기서 주의할 점이 HashSet으로 처리하면 안된다. 왜냐하면 중복된 것도 다른 것으로 처리해야 하기 때문이다.
+// 2. 하나의 ArrayList를 순회하면서, 다른 ArrayList에 있는지 찾고, 있으면 remove 시키고, intersection에 추가한다
+// 3. double과 int의 처리는 잘해줬다. 
+
 import java.util.*; 
 
 class Solution {
