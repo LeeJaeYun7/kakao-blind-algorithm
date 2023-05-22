@@ -1,3 +1,9 @@
+// 왜 맞았는가?
+// 1. map1과 map2를 활용해서 정보를 저장했다.
+// 2. getBit를 활용해서 숫자를 이진수로 바꾸어주었다. 
+// 3. map1과 map2를 활용해서 resMap을 만들었다.
+// 4. resMap을 그에 해당하는 '#'와 ' '로 바꾸어주었다. 
+
 import java.util.*; 
 
 class Solution {
